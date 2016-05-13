@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.thmoon.willpower.SplashActivity" 
+    android:background="@drawable/muzhi"
+    android:gravity="center"
+    android:orientation="vertical"
+    >
+    
+    <TextView 
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="学 习 宝"
+        android:textSize="35sp"
+        android:textColor="#aa000000"
+        android:textStyle="normal"
+        android:layout_marginBottom="30dp"
+        android:visibility="invisible"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        />
+
+    <TextView 
+        android:id="@+id/tv_top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="剁手党必备神器"
+        android:textSize="20sp"
+        android:textColor="#aa000000"
+        android:textStyle="italic"
+        android:visibility="invisible"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        />
+    <TextView 
+        android:id="@+id/tv_bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="你值得拥有"
+        android:textSize="20sp"
+        android:textColor="#aa000000"
+        android:textStyle="italic"
+        android:visibility="invisible"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        />
+
+</LinearLayout>

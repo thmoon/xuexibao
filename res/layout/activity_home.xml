@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/muzhi"
+     >
+    
+    <TextView 
+        android:id="@+id/tv_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="00:00"
+        android:textSize="50sp"
+        android:gravity="center"
+        android:layout_marginBottom="40dp"
+        />
+    
+    <Button 
+        android:layout_width="100dp"
+	    android:layout_height="wrap_content"
+	    android:text="时间设定"
+	    android:onClick="set"
+        />
+    <Button 
+        android:layout_width="100dp"
+	    android:layout_height="wrap_content"
+	    android:text="音效选择"
+	    android:onClick="choose"
+        />
+    
+	<Button 
+	    android:layout_width="100dp"
+	    android:layout_height="wrap_content"
+	    android:text="开启"
+	    android:onClick="start"
+	    />
+	<Button 
+	    android:layout_width="100dp"
+	    android:layout_height="wrap_content"
+	    android:text="停止"
+	    android:onClick="stop"
+	    />
+	<TextView 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="使用说明:服务启动后，在第一次黑屏后开始生效(注:时间可以设定，也可以不设定)"
+	    android:layout_marginTop="40dp"
+	    android:textSize="14sp"
+	    android:gravity="center"
+	    />
+</LinearLayout>
